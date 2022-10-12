@@ -8,6 +8,29 @@
     <title>HTML-Debrief: Contact</title>
 </head>
 <body>
-    
+	<!------ Added form here  -->
+	<form action="index.html" method="POST">
+		<div id="login-details">
+            <label for="name">username:</label>
+		    <input type="text" name="name"><br>
+		    <label for="pw">password:</label>
+		    <input type="text" name="pw">
+            <br><br><!-- TODO: remove once styled with CSS -->
+        </div>
+        <div id="login-preferences">
+            <input type="checkbox" id="savePW" name="savePW" value="savedPW">
+            <label for="savePW">Save Password?</label><br>
+            <input type="checkbox" id="saveUserName" name="saveUserName" value="savedUserName">
+            <label for="saveUserName">Save Username?</label><br>
+            <input type="checkbox" id="stayLogged" name="stayLogged" value="stayLogged">
+            <label for="stayLogged">Stay Logged In?</label>
+            <br><br><!-- TODO: remove once styled with CSS -->
+        </div>
+		<input type="submit" name="send">
+        <br><br><!-- TODO: remove once styled with CSS -->
+	</form>
+    <footer>
+        <a href="https://www.google.com" target="_blank">Click here to search google!</a>
+    </footer>
 </body>
 </html>
